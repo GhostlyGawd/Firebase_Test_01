@@ -19,54 +19,12 @@
     "features_section": {
       "type": "features-custom",
       "blocks": {
-        "feat1": {
-          "type": "feature",
-          "settings": {
-            "icon": "sparkles",
-            "title": "Self-Cleaning Tech",
-            "description": "Automatically separates waste from clean litter minutes after your cat leaves."
-          }
-        },
-        "feat2": {
-          "type": "feature",
-          "settings": {
-            "icon": "shield",
-            "title": "Odor Neutralization",
-            "description": "Sealed waste drawer with carbon filters ensures your home smells fresh."
-          }
-        },
-        "feat3": {
-          "type": "feature",
-          "settings": {
-            "icon": "smartphone",
-            "title": "App Connected",
-            "description": "Track usage habits, weight trends, and get notifications when the drawer is full."
-          }
-        },
-        "feat4": {
-          "type": "feature",
-          "settings": {
-            "icon": "clock",
-            "title": "Save Time",
-            "description": "Never scoop again. Just empty the waste drawer once every 2 weeks."
-          }
-        },
-        "feat5": {
-          "type": "feature",
-          "settings": {
-            "icon": "activity",
-            "title": "Health Monitoring",
-            "description": "Detects irregularities in bathroom habits early to keep your kitty healthy."
-          }
-        },
-        "feat6": {
-          "type": "feature",
-          "settings": {
-            "icon": "cat",
-            "title": "Multi-Cat Friendly",
-            "description": "Perfect for households with up to 4 cats. Recognizes cats by weight."
-          }
-        }
+        "feat1": { "type": "feature", "settings": { "icon": "sparkles", "title": "Self-Cleaning Tech", "description": "Automatically separates waste from clean litter minutes after your cat leaves." }},
+        "feat2": { "type": "feature", "settings": { "icon": "shield", "title": "Odor Neutralization", "description": "Sealed waste drawer with carbon filters ensures your home smells fresh." }},
+        "feat3": { "type": "feature", "settings": { "icon": "smartphone", "title": "App Connected", "description": "Track usage habits, weight trends, and get notifications when the drawer is full." }},
+        "feat4": { "type": "feature", "settings": { "icon": "clock", "title": "Save Time", "description": "Never scoop again. Just empty the waste drawer once every 2 weeks." }},
+        "feat5": { "type": "feature", "settings": { "icon": "activity", "title": "Health Monitoring", "description": "Detects irregularities in bathroom habits early to keep your kitty healthy." }},
+        "feat6": { "type": "feature", "settings": { "icon": "cat", "title": "Multi-Cat Friendly", "description": "Perfect for households with up to 4 cats. Recognizes cats by weight." }}
       },
       "block_order": ["feat1", "feat2", "feat3", "feat4", "feat5", "feat6"],
       "settings": {
@@ -74,11 +32,22 @@
         "heading": "Smarter. Cleaner. Safer.",
         "description": "Engineered with whisper-quiet motors and advanced sensors to provide the ultimate experience for you and your cat."
       }
+    },
+    "app_section": {
+      "type": "app-showcase",
+      "blocks": {
+        "app1": { "type": "feature", "settings": { "icon": "smartphone", "title": "Real-time Notifications", "text": "Get notified when the drawer is full." }},
+        "app2": { "type": "feature", "settings": { "icon": "wifi", "title": "Wi-Fi Connected", "text": "Connects seamlessly to your 2.4GHz home network." }},
+        "app3": { "type": "feature", "settings": { "icon": "zap", "title": "Insights Dashboard", "text": "Track weight and frequency to spot health issues." }}
+      },
+      "block_order": ["app1", "app2", "app3"],
+      "settings": {}
     }
   },
   "order": [
     "hero",
     "product_section",
-    "features_section"
+    "features_section",
+    "app_section"
   ]
 }
