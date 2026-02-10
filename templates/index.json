@@ -12,7 +12,9 @@
     },
     "product_section": {
       "type": "product-display",
-      "settings": {}
+      "settings": {
+        "selected_product": "purrfectclean-ultra"
+      }
     },
     "features_section": {
       "type": "features-custom",
