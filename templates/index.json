@@ -1,18 +1,58 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "hero": {
       "type": "hero-custom",
       "blocks": {
-        "b1": { "type": "benefit", "settings": { "benefit_text": "Free Shipping" }},
-        "b2": { "type": "benefit", "settings": { "benefit_text": "90-Day Guarantee" }},
-        "b3": { "type": "benefit", "settings": { "benefit_text": "1-Year Warranty" }}
+        "b1": {
+          "type": "benefit",
+          "settings": {
+            "benefit_text": "Free Shipping"
+          }
+        },
+        "b2": {
+          "type": "benefit",
+          "settings": {
+            "benefit_text": "90-Day Guarantee"
+          }
+        },
+        "b3": {
+          "type": "benefit",
+          "settings": {
+            "benefit_text": "1-Year Warranty"
+          }
+        }
       },
-      "block_order": ["b1", "b2", "b3"],
-      "settings": {}
+      "block_order": [
+        "b1",
+        "b2",
+        "b3"
+      ],
+      "settings": {
+        "badge_text": "#1 Rated Smart Litter Box of 2025",
+        "heading_line_1": "Never Scoop Again.",
+        "heading_line_2": "The Future of Cat Care.",
+        "description": "The PurrfectClean Ultra automatically cleans, neutralizes odors, and tracks your cat's health.",
+        "button_text": "Get Yours Now",
+        "button_link": "",
+        "price": "$499.00",
+        "old_price": "$699.00",
+        "hero_image": "shopify://shop_images/18c926fc-7d64-41ac-a9d5-a37d12310df7_1600x1600.jpeg.format.avif"
+      }
     },
     "product_section": {
       "type": "product-display",
-      "settings": {}
+      "settings": {
+        "selected_product": "purrfectclean-ultra"
+      }
     }
   },
   "order": [
