@@ -42,12 +42,23 @@
       },
       "block_order": ["app1", "app2", "app3"],
       "settings": {}
+    },
+    "reviews_section": {
+      "type": "reviews-custom",
+      "blocks": {
+        "rev1": { "type": "review", "settings": { "rating": 5, "author": "Sarah J.", "text": "I was skeptical about the price, but this thing is a life saver. No more smell, and my cats took to it immediately." }},
+        "rev2": { "type": "review", "settings": { "rating": 5, "author": "Mike T.", "text": "The app is fantastic. I knew my cat was sick before he showed symptoms because of the usage tracking. Worth every penny." }},
+        "rev3": { "type": "review", "settings": { "rating": 4, "author": "Emily R.", "text": "Setup was easy. It's a bit large, but looks very modern and sleek. The cats love it." }}
+      },
+      "block_order": ["rev1", "rev2", "rev3"],
+      "settings": {}
     }
   },
   "order": [
     "hero",
     "product_section",
     "features_section",
-    "app_section"
+    "app_section",
+    "reviews_section"
   ]
 }
