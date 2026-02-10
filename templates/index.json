@@ -1,20 +1,36 @@
-/*
- * ------------------------------------------------------------
- * IMPORTANT: The contents of this file are auto-generated.
- *
- * This file may be updated by the Shopify admin theme editor
- * or related systems. Please exercise caution as any changes
- * made to this file may be overwritten.
- * ------------------------------------------------------------
- */
 {
   "sections": {
-    "main": {
-      "type": "hello-world",
+    "hero": {
+      "type": "hero-custom",
+      "blocks": {
+        "b1": {
+          "type": "benefit",
+          "settings": {
+            "benefit_text": "Free Shipping"
+          }
+        },
+        "b2": {
+          "type": "benefit",
+          "settings": {
+            "benefit_text": "90-Day Guarantee"
+          }
+        },
+        "b3": {
+          "type": "benefit",
+          "settings": {
+            "benefit_text": "1-Year Warranty"
+          }
+        }
+      },
+      "block_order": [
+        "b1",
+        "b2",
+        "b3"
+      ],
       "settings": {}
     }
   },
   "order": [
-    "main"
+    "hero"
   ]
 }
